@@ -1,0 +1,197 @@
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.top-color {background-color: #1f2937;}
+
+.headers{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px 5px 0px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+}
+
+.logo {
+    margin-bottom: 75px;
+    font-size: 24px;
+    color: #f9faf8
+    }
+
+.links {
+   display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+   margin-top: 10px;
+   
+}
+
+.links, .herotext {
+    font-size: 18px;
+    color: #f9faf8
+}
+
+
+   
+
+
+img {
+    width: 400px;
+    height: 220px;
+    margin-top: 60px;
+    
+
+    
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+.signupbutton {
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+    
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+
+
+.info-container {
+    display: flex
+    
+   
+   
+   
+}
+.main-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin:auto;
+
+   
+    
+}
+
+.object-container {
+    display: flex;
+    align-items: center;
+   
+}
+
+.object {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+    padding: 20px
+
+
+}
+
+
+
+  
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    
+
+}
+
+blockquote {
+    margin:auto;
+    padding: 10px;
+    max-width: 400px;
+    font-size: 36px;
+    font-style: italic;
+    color:  #1f2937;
+}
+
+figcaption {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    max-width: 400px;
+    font-size: 36px;
+    font-style: italic;
+    color:  #1f2937;
+}
+
+
+
+
+.last-element {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    color: #f9faf8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+    background-color: #3882f6;
+    
+    
+
+}
+
+.last-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+
+.button-curve {
+    border-radius: 8px;
+    border: 1px solid #f9faf8;
+    padding: 7px 18px 7px;
+
+}
+  
+.first-button {
+    padding: 7px 18px 7px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.call-action {
+    font-size: 24px;
+    font-weight: bold;
+}
